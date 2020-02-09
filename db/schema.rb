@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20200209193937) do
 
   create_table "artists", force: :cascade do |t|
@@ -24,6 +25,9 @@ ActiveRecord::Schema.define(version: 20200209193937) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+=======
+ActiveRecord::Schema.define(version: 20200209193053) do
+>>>>>>> bdd2062028eff20ed735a2d59ab782b43446ef2f
 
   create_table "songs", force: :cascade do |t|
     t.string   "name"
